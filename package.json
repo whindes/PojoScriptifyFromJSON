@@ -1,0 +1,12 @@
+{
+  "name": "pojo-deserializer",
+  "version": "0.0.1",
+  "description": "Node.JS library for deserializing POJO/JSON parsed objects to Javascript code. ",
+  "main": "index.js",
+  "author": {
+    "name": "whindes"
+  },
+  "dependencies": {
+   "object.values": "^1.0.3"
+  }
+}
