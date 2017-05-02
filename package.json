@@ -1,6 +1,6 @@
 {
   "name": "pojo-deserializer",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Node.JS library for deserializing POJO/JSON parsed objects to Javascript code.",
   "main": "index.js",
   "scripts": {
