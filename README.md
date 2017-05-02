@@ -13,7 +13,12 @@ var pojoJs = new pojoDeserializer();
 
 var pojo = JSON.parse('{"Hello":"My String Var", "Contents":[1,2,3]}');
 
-var deserializedJsCode = pojoJs.arrayObjectEval(pojo).replace(/,\s*$/, '');
+var deserializedJsCode = pojoJs.deserializePojo(pojo);
+
+console.log(deserializedJsCode);
+/*
+    prints --- { Hello: 'My String Var', Contents: [ 1, 2, 3]}
+*/
 
 ```
 
