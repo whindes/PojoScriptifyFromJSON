@@ -9,7 +9,7 @@ describe('POJO-Deserializer Lib', function () {
     var pojoCreator = new pojoDeserializer();
 
     it('Should deserialize a stringified object that is JSON.parsed.', function () {
-        expect(pojoCreator.arrayObjectEval(parsedJSON).replace(/,\s*$/, '')).to.eql(expectedString);
+        expect(pojoCreator.deserializePojo(parsedJSON)).to.eql(expectedString);
     });
 
 
