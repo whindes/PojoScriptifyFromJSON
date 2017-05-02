@@ -1,6 +1,30 @@
-# PojoScriptifyFromJSON
+# pojo-deserialize
+Node.JS library for deserializing POJO/JSON parsed objects to Javascript code. 
 
-Example:
-let jsonParsed = JSON.parse('{ "hello": { "world" : "parsed", "success": true, "noerror": 0, "count":[{ "one" : 1},{ "one" : 2}]}}');
+# Dependencies
+* object.value 1.0.3
 
-let jsCode = objToString(jsonParsed);
+
+# Installation
+```
+npm install pojo-deserialize
+
+var pojoJs = new PojoCreator();
+
+var pojo = JSON.parse('{"Hello":"My String Var", "Contents":[1,2,3]}');
+
+var deserializedJsCode = pojoJs.arrayObjectEval(pojo).replace(/,\s*$/, '');
+
+```
+
+# Test
+```
+npm test
+```
+
+# Documentation
+API documentation can be found at https://github.com/whindes/PojoScriptifyFromJSON/Readme.md
+
+# Implementation Notes
+* Supports browser or Node.js implementations
+
