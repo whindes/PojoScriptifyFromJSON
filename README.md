@@ -9,7 +9,7 @@ Node.JS library for deserializing POJO/JSON parsed objects to Javascript code.
 ```
 npm install pojo-deserialize
 
-var pojoJs = new PojoCreator();
+var pojoJs = new pojoDeserializer();
 
 var pojo = JSON.parse('{"Hello":"My String Var", "Contents":[1,2,3]}');
 
