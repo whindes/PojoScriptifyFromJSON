@@ -1,12 +1,27 @@
 {
   "name": "pojo-deserializer",
-  "version": "0.0.1",
-  "description": "Node.JS library for deserializing POJO/JSON parsed objects to Javascript code. ",
+  "version": "0.0.10",
+  "description": "Node.JS library for deserializing POJO/JSON parsed objects to Javascript code.",
   "main": "index.js",
-  "author": {
-    "name": "whindes"
+  "scripts": {
+    "test": "mocha test"
   },
-  "dependencies": {
-   "object.values": "^1.0.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whindes/PojoScriptifyFromJSON.git"
+  },
+  "keywords": [
+    "deserializer",
+    "pojo"
+  ],
+  "author": "William Hindes <bhindes@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whindes/PojoScriptifyFromJSON/issues"
+  },
+  "homepage": "https://github.com/whindes/PojoScriptifyFromJSON#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.3.0"
   }
 }
