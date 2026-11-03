@@ -31,5 +31,5 @@ npm test
 API documentation can be found at https://github.com/whindes/PojoScriptifyFromJSON/Readme.md
 
 # Implementation Notes
-* Supports browser or Node.js implementations.
+* Supports browser or Node.js implementations
 
